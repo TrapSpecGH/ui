@@ -249,7 +249,7 @@ function library:Load(opts)
     })
 
     utility.create("UICorner", {
-        CornerRadius = UDim.new(5, 5),
+        CornerRadius = UDim.new(0, 0),
         Parent = main
     })
 
