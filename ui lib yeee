@@ -254,12 +254,12 @@ function library:Load(opts)
     })
 
     local tabs = utility.create("Frame", {
-        ZIndex = 2,
-        Size = UDim2.new(1, -16, 1, -34),
-        Position = UDim2.new(0, 8, 0, 26),
-        BackgroundColor3 = Color3.fromRGB(60, 60, 40)
-        Parent = main
-    })
+    ZIndex = 2,
+    Size = UDim2.new(1, -16, 1, -34),
+    Position = UDim2.new(0, 8, 0, 26),
+    BackgroundColor3 = Color3.fromRGB(60, 60, 40),
+    Parent = main
+})
 
     
     utility.create("UICorner", {
